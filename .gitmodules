@@ -4,3 +4,6 @@
 [submodule "app/docs.md/dev"]
 	path = app/docs.md/dev
 	url = git@github.com:farrrr/docs.git
+[submodule "app/docs.md/4.0"]
+	path = app/docs.md/4.0
+	url = git@github.com:farrrr/docs.git
