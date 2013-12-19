@@ -74,15 +74,17 @@
 <nav id="primary">
     <div class="boxed">
         <div id="logo-head">
-           <a href="//laravel.com"><img src="/assets/img/logo-head.png" alt="Laravel" /></a>
+           <a href="/"><img src="/assets/img/logo-head.png" alt="Laravel" /></a>
         </div>
         <ul>
             <li class="current-item"><a href="#">歡迎</a></li>
             <li><a href="/docs" title="Documentation">文件</a></li>
-            <li><a href="/api/4.1" title="Laravel Framework API">API</a></li>
-            <li><a href="//github.com/laravel/laravel" title="Github">Github</a></li>
-            <li><a href="//forums.laravel.io/" title="Laravel Forums">論壇</a></li>
-            <li><a href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+            <li><a target="_blank" href="http://laravel.com/api/4.1" title="Laravel Framework API">API</a></li>
+            <li><a target="_blank" href="//github.com/laravel/laravel" title="Github">Github</a></li>
+            <li><a target="_blank" href="//fluxbb.farapp.us/" title="Laravel Forums">中文論壇</a></li>
+            <li><a target="_blank" href="//forums.laravel.io/" title="Laravel Forums">英文論壇</a></li>
+            <li><a target="_blank" href="//lararvel.farapp.us/" title="Laravel Forums">部落格</a></li>
+            <li><a target="_blank" href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
         </ul>
     </div>
 </nav>
@@ -103,15 +105,17 @@
         <!-- nav -->
         <nav id="secondary">
             <div id="logo-foot">
-	           <a href="//laravel.com"><img src="/assets/img/logo-foot.png" alt="Laravel" /></a>
+	           <a href="/"><img src="/assets/img/logo-foot.png" alt="Laravel" /></a>
 	        </div>
             <ul>
                 <li class="current-item"><a href="#">歡迎</a></li>
                 <li><a href="/docs" title="Documentation">文件</a></li>
-                <li><a href="/api/4.1" title="Laravel Framework API">API</a></li>
-                <li><a href="//github.com/laravel/laravel" title="Github">Github</a></li>
-                <li><a href="//forums.laravel.io/" title="Laravel Forums">論壇</a></li>
-                <li><a href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
+                <li><a target="_blank" href="http://laravel.com/api/4.1" title="Laravel Framework API">API</a></li>
+                <li><a target="_blank" href="//github.com/laravel/laravel" title="Github">Github</a></li>
+                <li><a target="_blank" href="//fluxbb.farapp.us/" title="Laravel Forums">中文論壇</a></li>
+                <li><a target="_blank" href="//forums.laravel.io/" title="Laravel Forums">英文論壇</a></li>
+                <li><a target="_blank" href="//lararvel.farapp.us/" title="Laravel Forums">部落格</a></li>
+                <li><a target="_blank" href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
             </ul>
         </nav>
         <!-- /nav -->
