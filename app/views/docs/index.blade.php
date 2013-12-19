@@ -3,7 +3,7 @@
 @section('header_boxed')
         <!-- tagline -->
         <div id="tagline">
-            <h1>Documentation.</h1>
+            <h1>中文文件.</h1>
         </div>
         <!-- /tagline -->
 
@@ -25,6 +25,7 @@
                 @include('docs/sidebar')
                     <!-- docs content -->
                     <div id="docs-content">
+                    {{ $docs_content }}
                     </div>
                     <!-- /docs content -->
                 </article>

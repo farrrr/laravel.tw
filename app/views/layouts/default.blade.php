@@ -103,7 +103,7 @@
         <!-- nav -->
         <nav id="secondary">
             <div id="logo-foot">
-	           <a href="//laravel.com"><img src="assets/img/logo-foot.png" alt="Laravel" /></a>
+	           <a href="//laravel.com"><img src="/assets/img/logo-foot.png" alt="Laravel" /></a>
 	        </div>
             <ul>
                 <li class="current-item"><a href="#">歡迎</a></li>

@@ -12,5 +12,6 @@
 */
 
 Route::get('docs', 'DocsController@index');
+Route::get('docs/{document}', 'DocsController@getDocs');
 
 Route::get('/', 'WelcomeController@index');
