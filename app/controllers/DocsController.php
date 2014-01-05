@@ -46,6 +46,7 @@ class DocsController extends BaseController
                 break;
         }
         $docs_md = app_path() . '/docs.md/' . $docs_ver . '/' . $document . '.md';
+        $sidebar_md = app_path() . '/docs.md/' . $docs_ver . '/' . 'documentation.md';
 
         if (!file_exists($docs_md)) {
             return Redirect::to('docs/introduction');
@@ -53,9 +54,11 @@ class DocsController extends BaseController
 
         $markdownParser = new MarkdownParser();
         $docs_content = $markdownParser->transformMarkdown(file_get_contents($docs_md));
+        $sidebar_content = $markdownParser->transformMarkdown(file_get_contents($sidebar_md));
 
         return View::make('docs/index')
             ->with('docs_ver', $docs_ver)
-            ->with('docs_content', $docs_content);
+            ->with('docs_content', $docs_content)
+            ->with('sidebar_content', $sidebar_content);
     }
 }
