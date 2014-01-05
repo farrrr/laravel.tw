@@ -85,7 +85,9 @@
             <li><a target="_blank" href="//fluxbb.farapp.us/" title="Laravel Forums">中文論壇</a></li>
             //-->
             <li><a target="_blank" href="//forums.laravel.io/" title="Laravel Forums">英文論壇</a></li>
-            <li><a target="_blank" href="//lararvel.farapp.us/" title="Laravel Forums">部落格</a></li>
+            <!--
+            <li><a target="_blank" href="//blog.lararvel.tw/" title="Laravel Forums">部落格</a></li>
+            //-->
             <li><a target="_blank" href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
         </ul>
     </div>
@@ -115,7 +117,9 @@
                 <li><a target="_blank" href="http://laravel.com/api/4.1" title="Laravel Framework API">API</a></li>
                 <li><a target="_blank" href="//github.com/laravel/laravel" title="Github">Github</a></li>
                 <li><a target="_blank" href="//forums.laravel.io/" title="Laravel Forums">英文論壇</a></li>
-                <li><a target="_blank" href="//lararvel.farapp.us/" title="Laravel Forums">部落格</a></li>
+                <!--
+                <li><a target="_blank" href="//blog.laravel.tw/" title="Laravel Forums">部落格</a></li>
+                //-->
                 <li><a target="_blank" href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
             </ul>
         </nav>
