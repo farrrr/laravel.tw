@@ -17,13 +17,16 @@ class DocsController extends BaseController
 
     public function getDocs($document)
     {
-        if (in_array($document, array('4-0', '4-1', 'dev'))) {
+        if (in_array($document, array('4-0', '4-1', '4-2', 'dev'))) {
             switch($document) {
             case '4-0':
                 $docs_ver = '4.0';
                 break;
             case '4-1':
                 $docs_ver = '4.1';
+                break;
+            case '4-2':
+                $docs_ver = '4.2';
                 break;
             case 'dev':
                 $docs_ver = 'dev';
@@ -34,15 +37,18 @@ class DocsController extends BaseController
             return Redirect::back();
         }
 
-        switch(Session::get('doc-ver', '4.1')) {
+        switch(Session::get('doc-ver', '4.2')) {
             case '4.0':
                 $docs_ver = '4.0';
                 break;
             case 'dev':
                 $docs_ver = 'dev';
                 break;
-            default: // include 4.1
+            case '4.1':
                 $docs_ver = '4.1';
+                break;
+            default: // include 4.2
+                $docs_ver = '4.2';
                 break;
         }
         $docs_md = app_path() . '/docs.md/' . $docs_ver . '/' . $document . '.md';
