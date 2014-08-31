@@ -79,7 +79,7 @@
         <ul>
             <li class="current-item"><a href="#">歡迎</a></li>
             <li><a href="/docs" title="Documentation">文件</a></li>
-            <li><a target="_blank" href="http://laravel.com/api/4.1" title="Laravel Framework API">API</a></li>
+            <li><a target="_blank" href="http://laravel.com/api/4.2" title="Laravel Framework API">API</a></li>
             <li><a target="_blank" href="//github.com/laravel/laravel" title="Github">Github</a></li>
             <!--
             <li><a target="_blank" href="//fluxbb.farapp.us/" title="Laravel Forums">中文論壇</a></li>
