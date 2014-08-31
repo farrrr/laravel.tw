@@ -1,5 +1,5 @@
 <?php
-use dflydev\markdown\MarkdownParser;
+use \Michelf\MarkdownExtra;
 
 class DocsController extends BaseController
 {
@@ -18,7 +18,7 @@ class DocsController extends BaseController
     public function getDocs($document)
     {
         if (in_array($document, array('4-0', '4-1', '4-2', 'dev'))) {
-            switch($document) {
+            switch ($document) {
             case '4-0':
                 $docs_ver = '4.0';
                 break;
@@ -37,7 +37,7 @@ class DocsController extends BaseController
             return Redirect::back();
         }
 
-        switch(Session::get('doc-ver', '4.2')) {
+        switch (Session::get('doc-ver', '4.2')) {
             case '4.0':
                 $docs_ver = '4.0';
                 break;
@@ -58,9 +58,8 @@ class DocsController extends BaseController
             return Redirect::to('docs/introduction');
         }
 
-        $markdownParser = new MarkdownParser();
-        $docs_content = $markdownParser->transformMarkdown(file_get_contents($docs_md));
-        $sidebar_content = $markdownParser->transformMarkdown(file_get_contents($sidebar_md));
+        $docs_content = MarkdownExtra::defaultTransform(file_get_contents($docs_md));
+        $sidebar_content = MarkdownExtra::defaultTransform(file_get_contents($sidebar_md));
 
         return View::make('docs/index')
             ->with('docs_ver', $docs_ver)
