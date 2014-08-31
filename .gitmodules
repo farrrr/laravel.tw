@@ -4,3 +4,9 @@
 [submodule "app/docs.md/4.2"]
 	path = app/docs.md/4.2
 	url = https://github.com/laravel-taiwan/docs.git
+[submodule "app/docs.md/dev"]
+	path = app/docs.md/dev
+	url = https://github.com/laravel-taiwan/docs.git
+[submodule "app/docs.md/4.1"]
+	path = app/docs.md/4.1
+	url = https://github.com/laravel-taiwan/docs.git
